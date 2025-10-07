@@ -1,0 +1,34 @@
+Advanced overview
+
+### 1. Real-Time Risk Dashboard
+Interactive OCaml/React or Python/Plotly/Dash frontend that visualizes live trade and risk metrics, with streaming updates and drilldown by asset class.
+- Integrates with engine’s metrics API
+- Real-time threshold-based notifications
+- Custom dashboards for derivatives, equities, F&O
+
+### 2. Latency-Optimized Kafka Backbone
+Architect, benchmark, and document an ultra-low-latency Kafka event-processing pipeline with OCaml bindings.
+- Optimized producer/consumer patterns
+- Zero-copy message serialization (Avro/Protobuf)
+- Performance metrics (p95/p99 latency charts)
+
+### 3. ML-driven Anomaly Detector
+Python/OCaml hybrid microservice for streaming anomaly detection using online sklearn, River, or PyTorch models.
+- Adaptive thresholding, explainable outlier detection
+- Metrics: MAPE, FPR, real-world trade data
+- Includes integration with Kafka pipeline
+
+### 4. Stress-Test Simulator
+Simulation toolkit to inject correlated market shocks, liquidity crunches, or systemic events.
+- Reproducible runs, parallel scenario generation
+- Monte Carlo VaR and tail events
+- Model validation for crisis-period resilience
+
+### 5. Portfolio XVA and Margin Engine
+Advanced engine module for real-time Value Adjustments (CVA/DVA/FVA/MVA) and consolidated margin analytics.
+- Fast risk aggregation, dynamic margin adjustment
+- PostgreSQL/TimescaleDB integration for risk data
+- REST API for margin exposure and reporting
+
+---
+Each `/README.md` in these folders gives implementation steps, sample data, and expected outputs.
