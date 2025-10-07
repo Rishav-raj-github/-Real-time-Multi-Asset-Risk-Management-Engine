@@ -1,0 +1,5 @@
+Latency-Optimized Kafka Backbone
+Architect, benchmark, and document an ultra-low-latency Kafka event-processing pipeline with OCaml bindings.
+- Optimized producer/consumer patterns
+- Zero-copy message serialization (Avro/Protobuf)
+- Performance metrics (p95/p99 latency charts)
