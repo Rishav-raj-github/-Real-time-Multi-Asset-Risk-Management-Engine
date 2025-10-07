@@ -1,0 +1,5 @@
+Real-Time Risk Dashboard
+Interactive OCaml/React or Python/Plotly/Dash frontend that visualizes live trade and risk metrics, with streaming updates and drilldown by asset class.
+- Integrates with engine’s metrics API
+- Real-time threshold-based notifications
+- Custom dashboards for derivatives, equities, F&O
